@@ -43,7 +43,7 @@ trees # => 274
 # Right 7, down 1.
 # Right 1, down 2.
 
-input = File.readlines("example.txt", chomp: true)
+input = File.readlines("03.example.txt", chomp: true)
 line_length = input[0].size    # => 31  (0, 30)
 
 slopes = [
